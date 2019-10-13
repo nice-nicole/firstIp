@@ -46,13 +46,9 @@ gradle run
 ```
 ### TECHNOLOGIES USED:
 
-- **[Java](https://java.com/en/download/) - source language.**
+- Android.
 
-- **[Gradle](https://gradle.org/) for dependency management and running tasks.**
 
-- Bootstrap.
-
-- Cascading Style Sheets.
 
 
 ## Support & Contact

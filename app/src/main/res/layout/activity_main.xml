@@ -24,6 +24,7 @@
         android:src="@drawable/ip4" />
 
     <Button
+        android:id="@+id/createAcc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="create account"

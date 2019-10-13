@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         createAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent goToPage2= new Intent(MainActivity.this,createAccount.class);
+                Intent goToPage2= new Intent(MainActivity.this, createAccount.class);
                 startActivity(goToPage2);
             }
         });

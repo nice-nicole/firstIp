@@ -32,12 +32,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/username"
+        android:layout_centerHorizontal="true"
         android:ems="10"
         android:hint="enter phone number"
         android:inputType="phone"
         android:textColorHint="#673AB7"
-        app:fontFamily="@font/lobster"
-        android:layout_centerHorizontal="true"/>
+        app:fontFamily="@font/lobster" />
 
     <Button
         android:id="@+id/continueButton"

@@ -10,34 +10,42 @@
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:text="Create account"
-        android:textStyle="bold"
         android:textSize="35sp"
-        android:layout_centerHorizontal="true" />
+        android:textStyle="bold"
+        app:fontFamily="@font/lobster" />
 
     <EditText
         android:id="@+id/username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/title"
         android:hint="enter your username"
-        android:layout_below="@id/title"/>
-
+        android:textColorHint="#3F51B5"
+        app:fontFamily="@font/lobster"
+        android:layout_centerHorizontal="true"/>
 
 
     <EditText
         android:id="@+id/phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="phone"
         android:layout_below="@id/username"
-        android:hint="enter phone number"/>
+        android:ems="10"
+        android:hint="enter phone number"
+        android:inputType="phone"
+        android:textColorHint="#673AB7"
+        app:fontFamily="@font/lobster"
+        android:layout_centerHorizontal="true"/>
 
     <Button
         android:id="@+id/continueButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="continue"
-        android:layout_below="@id/phone"/>
+        android:layout_below="@id/phone"
+        app:fontFamily="@font/lobster"
+        android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>

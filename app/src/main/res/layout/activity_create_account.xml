@@ -14,7 +14,8 @@
         android:text="Create account"
         android:textSize="35sp"
         android:textStyle="bold"
-        app:fontFamily="@font/lobster" />
+        app:fontFamily="@font/lobster"
+        android:textColor="@color/colorAccent"/>
 
     <EditText
         android:id="@+id/username"
@@ -36,7 +37,7 @@
         android:ems="10"
         android:hint="enter phone number"
         android:inputType="phone"
-        android:textColorHint="#673AB7"
+        android:textColorHint="#3F51B5"
         app:fontFamily="@font/lobster" />
 
     <Button

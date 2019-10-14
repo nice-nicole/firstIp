@@ -13,7 +13,8 @@
         android:text="Your profile"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:fontFamily="@font/lobster" />
+        app:fontFamily="@font/lobster"
+        android:textColor="@color/colorAccent"/>
 
 
     <ImageView
@@ -30,7 +31,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_marginTop="150dp"
-        app:fontFamily="@font/lobster" />
+        app:fontFamily="@font/lobster"
+        android:textColor="@color/colorAccent"/>
 
     <TextView
         android:id="@+id/phoneNber"
@@ -38,7 +40,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/user"
         android:layout_alignParentRight="true"
-        app:fontFamily="@font/lobster" />
+        app:fontFamily="@font/lobster"
+        android:textColor="@color/colorAccent"/>
 
     <Button
         android:id="@+id/uploadC"
@@ -46,7 +49,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="250dp"
         android:layout_centerHorizontal="true"
-        android:text="Meet your friends" />
+        android:text="Meet your friends"
+        app:fontFamily="@font/lobster"
+        android:textColor="@color/colorAccent"/>
 
 
 </RelativeLayout>
